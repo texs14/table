@@ -1,4 +1,4 @@
-# test-onepayment
+# Table
 
 ## Project setup
 ```
@@ -20,5 +20,7 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#Stack
+
+####Vue 3 (Composition API)
+####Bootstrap 5
