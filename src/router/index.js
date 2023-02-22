@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import VExample3 from "@/components/HomePage";
+import VExample3 from "@/pages/HomePage";
 
 const router = createRouter({
   history: createWebHistory(),
