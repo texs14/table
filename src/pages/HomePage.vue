@@ -52,9 +52,11 @@ async function getCars() {
   state.isLoaded = false;
   axios(CARS_URL + "?" + params)
     .then((data) => {
+      // Сюда мы не попадаем
       state.cars = [...data];
     })
     .catch(() => {
+      // Попадаем сюда и хардкодим данные
       const data = [
         { id: 1, brand: "BMW", age: 2010 },
         { id: 2, brand: "Audi", age: 2012 },
