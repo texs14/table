@@ -20,7 +20,7 @@ npm run build
 npm run lint
 ```
 
-#Stack
+# Stack
 
-####Vue 3 (Composition API)
-####Bootstrap 5
+#### Vue 3 (Composition API)
+#### Bootstrap 5
